@@ -1,6 +1,15 @@
 version: "2"
 run:
   allow-parallel-runners: true
+linters-settings:
+  custom:
+    kubeapilinter:
+      path: "bin"
+      description: Kube API LInter lints Kube like APIs based on API conventions and best practices.
+      original-url: sigs.k8s.io/kube-api-linter
+      settings:
+        linters: {}
+        lintersConfig: {}
 linters:
   default: none
   enable:
