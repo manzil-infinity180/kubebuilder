@@ -4,3 +4,4 @@ destination: ./bin
 plugins:
   - module: 'sigs.k8s.io/kube-api-linter'
     path: ./
+    
